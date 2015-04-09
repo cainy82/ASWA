@@ -1,0 +1,114 @@
+/*-----------------[DIVI CHILDREN CUSTOM CLASSES AND IDs BOX]----------------*/
+/*----[Created by Divi Children, http://divi4u.com/divi-children-plugin/]----*/
+/*---------------------------------------------------------------------------*/
+
+
+#custom_classes h3, #custom_ids h3, #magic_selectors h3 {
+	font-size: 13px;
+	cursor: text;
+	padding-left: 0;
+}
+#custom_classes .inside, #custom_ids .inside, #magic_selectors .inside {
+	padding: 0 5px 5px;
+	margin: 0;
+}
+#custom_fullwidth_header , #custom_rows_section, #custom_sidebar_module, #magic_codes, #custom_cta {
+	padding: 1px 15px 10px 15px;
+	background: #9999ee;
+	margin: 0 0 10px 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	position: relative;
+}
+#magic_codes {
+	padding: 10px 15px 10px 15px;
+}
+#custom_fullwidth_header {
+	background: #9999ee;
+	color: #eef;
+}
+#custom_rows_section {
+	background: #cc99ee;
+	color: #fee;
+}
+#custom_sidebar_module {
+	background: #ed6565;
+	color: #fee;
+}
+#custom_cta {
+	background: #3dbaaa;
+	color: #eff;
+}
+#magic_codes {
+	background: #999999;
+}
+#custom_fullwidth_header  h4, #custom_rows_section h4, #custom_sidebar_module h4, #magic_codes h4, #custom_cta h4{
+	padding: 10px 0 0 0;
+	margin: 0px;
+	color: #fff;
+}
+#magic_codes h4{
+	padding: 5px 0 0 0;
+}
+.opentrigger, .closedtrigger {
+	cursor: pointer;
+	float: right;
+	width: 27px;
+	height: 30px;
+	color: #aaa;
+}
+.opentrigger:hover, .closedtrigger:hover {
+	color: #777;
+}
+.opentrigger:before, .closedtrigger:before {
+	right: -15px;
+	font: 400 20px/1 dashicons;
+	speak: none;
+	display: inline-block;
+	top: 0;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.opentrigger:before {
+	content:'\f142'
+}
+.closedtrigger:before {
+	content:'\f140'
+}
+.add_custom_selector:before, .magic_code_info:before {
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 0;
+	-webkit-font-smoothing: antialiased;
+	position: relative;
+}
+.add_custom_selector:before {
+	font-family: 'etbuilder';
+	content: '\23';
+	font-size: 32px;
+	top: 8px;
+	left: -8px;
+	color: #fff;	
+}
+.magic_code_info:before {
+	font-family: 'ETmodules';
+	content: '\70';
+	font-size: 20px;
+	top: 3px;
+	left: 8px;
+	color: #eef;
+}
+.add_custom_selector, .magic_code_info {
+	cursor:pointer;
+}
+.magic_code_info_text {
+	font-size: 13px;
+	line-height: 1.5;
+	margin: 0.1em 0 1.2em 0;
+	font-style: italic;
+	color: #eef;
+}
